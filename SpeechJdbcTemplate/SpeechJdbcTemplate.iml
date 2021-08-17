@@ -21,6 +21,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-core:0.9" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:easyexcel:2.2.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.17" level="project" />
