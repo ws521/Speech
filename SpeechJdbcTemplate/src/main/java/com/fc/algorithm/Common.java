@@ -1,10 +1,12 @@
 package com.fc.algorithm;
 
 import org.junit.Test;
+import org.springframework.context.annotation.Bean;
 
 import java.util.Scanner;
 
 //输入两个正整数m和n，求其最大公约数和最小公倍数
+
 public class Common {
 
     public static void main(String[] args) {

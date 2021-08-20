@@ -1,6 +1,7 @@
 package com.fc.testIO;
 
 import java.io.*;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +11,7 @@ public class testTxt {
         File file = new File("D:\\桌面\\1号迷宫(0,18).txt");
         List<String> list = new ArrayList<>();
         try {
+
             BufferedReader br = new BufferedReader(new FileReader(file));
             String s;
             while ((s = br.readLine()) != null) {//使用readline方法一次读一行
@@ -23,11 +25,8 @@ public class testTxt {
         return list;
     }
 
-    public int[][] SplitString(List list){
-        int[][] dd = {{0,1},{1,0},{0,-1},{-1,0}};//右，下，左，上，四个方向
-
-
-
+    public int[][] SplitString() {
+        int[][] dd = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};//右，下，左，上，四个方向
 
 
         return null;
